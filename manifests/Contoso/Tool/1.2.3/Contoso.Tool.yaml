@@ -1,0 +1,9 @@
+# Sample WinGet manifest (replace with real YAML)
+PackageIdentifier: Contoso.Tool
+PackageVersion: 1.2.3
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://example.com/contoso/tool/1.2.3/installer.exe
+    InstallerSha256: 0000000000000000000000000000000000000000000000000000000000000000
+ManifestType: singleton
+ManifestVersion: 1.6.0
